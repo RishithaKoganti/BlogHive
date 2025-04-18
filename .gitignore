@@ -1,0 +1,18 @@
+# Configuration files with sensitive information
+config/database.php
+
+# Temporary files
+*.tmp
+*.log
+
+# User uploaded content
+assets/images/blogs/*
+!assets/images/blogs/.gitkeep
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

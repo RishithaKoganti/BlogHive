@@ -1,0 +1,45 @@
+/* Basic styling for blogHive */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.main-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.blog {
+    padding: 20px;
+}
+
+#box {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
