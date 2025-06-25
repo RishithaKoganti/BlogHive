@@ -1,7 +1,7 @@
-#BlogHive
+##BlogHive
 BlogHive is a web-based blogging platform that allows users to create, publish, and share their stories with the world. It provides a simple and intuitive interface for writers to express themselves and for readers to discover interesting content.
 
-#Features
+##Features
 User authentication (signup, login, profile management)
 Create, edit, and delete blog posts
 Comment on blog posts
