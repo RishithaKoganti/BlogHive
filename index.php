@@ -87,41 +87,6 @@ $blog_types = [
       </div>
     </div>
 
-    <!-- Blog Types Carousel Section -->
-    <div class="section bg-dark text-white py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">Explore Blog Categories</h2>
-        
-        <div id="blogTypesCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <?php foreach ($blog_types as $index => $type): ?>
-              <button type="button" data-bs-target="#blogTypesCarousel" data-bs-slide-to="<?php echo $index; ?>" <?php echo $index === 0 ? 'class="active" aria-current="true"' : ''; ?> aria-label="Slide <?php echo $index + 1; ?>"></button>
-            <?php endforeach; ?>
-          </div>
-          <div class="carousel-inner">
-            <?php foreach ($blog_types as $index => $type): ?>
-              <div class="carousel-item <?php echo $index === 0 ? 'active' : ''; ?>">
-                <div class="d-block w-100 bg-dark text-bg-light p-5">
-                  <div class="blog-type text-center">
-                    <i class="fas <?php echo $type['icon']; ?> fa-4x mb-4"></i>
-                    <h1><?php echo $type['name']; ?></h1>
-                    <p class="lead mt-4"><?php echo $type['description']; ?></p>
-                  </div>
-                </div>
-              </div>
-            <?php endforeach; ?>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#blogTypesCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#blogTypesCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </div>
 
     <!-- Recent Blogs Section -->
     <div class="section py-5">
